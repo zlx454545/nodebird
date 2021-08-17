@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "antd/dist/antd";
+import "antd/dist/antd.css";
 
 const NodeBird = ({ Component }) => {
   return (

@@ -21,4 +21,35 @@ pages폴더는 무조건 pages로 지어야됨!!
 
 styled components 배우고 걍 emotion으로 갈아타셈
 
-_app.js에다가 공통적인거 layout이랑 좀 다름
+layout은 부분적으로 공통인애들
+_app.js에다가 공통적인거 import "antd/dist/antd.css";
+_app.js에서 바디말고 헤드 건들고 싶으면 import Head from 'next/head;' 사용하기
+
+Row gutter:column 사이의 간격
+Col xs:모바일 sm:태블릿 md:모니터
+
+<Col xs={24} md={6}>
+          <a
+            href="https://www.zerocho.com"
+            target="_blank"
+            rel="noreferrer noopener" // 보안상이유
+          >
+            Made by zerocho
+          </a>
+</Col>
+
+
+
+폼 만드는거 리액트폼같은 라이브러리로 실무에선 써라
+
+
+import Link from "next/link";
+링크에 href달고 안에 a태그 걍 넣기만해라
+
+component에 프롭스로 넘겨주는 함수는 useCallback을 써라
+antd에서 제로초가 쓴것들 좀 찾아보기
+
+컴포넌트 안에 스타일 고칠때(antd 커스터마이징할때) 인라인으로 객체조지면 리렌더링 일어남 ㅋㅋ
+=> 스타일드 컴포넌트로 커스텀하게 따로 빼놔야됨
+
+스타일드 컴포넌트 싫다? => useMemo안에 객체 넣어놓고 인라인으로 쓰기

@@ -1,0 +1,24 @@
+npm init
+npm i next@9
+
+
+package.json에 script 안에 test 지우고
+"dev" : "next"쓰기
+
+npm i react react-dom
+
+npm i prop-types
+
+npm i eslind -D
+npm i eslint-plugin-import -D
+npm i eslint-plugin-react-hooks -D
+
+npm i antd styled-components @ant-design/icons
+import "antd/dist/antd.css";
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+pages폴더는 무조건 pages로 지어야됨!!
+
+styled components 배우고 걍 emotion으로 갈아타셈
+
+_app.js에다가 공통적인거 layout이랑 좀 다름

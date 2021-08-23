@@ -3,7 +3,7 @@ import Avatar from "antd/lib/avatar/avatar";
 import { useCallback } from "react";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { logoutAction } from "../reducers";
+import { logoutAction } from "../reducers/user";
 
 const UserProfile = () => {
   const dispatch = useDispatch();

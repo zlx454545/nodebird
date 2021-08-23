@@ -19,6 +19,8 @@ import "antd/dist/antd.css";
 npm i next-redux-wrapper
 npm i redux
 npm i react-redux
+
+npm i redux-devtools-extension
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 pages폴더는 무조건 pages로 지어야됨!!

@@ -15,6 +15,10 @@ npm i eslint-plugin-react-hooks -D
 
 npm i antd styled-components @ant-design/icons
 import "antd/dist/antd.css";
+
+npm i next-redux-wrapper
+npm i redux
+npm i react-redux
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 pages폴더는 무조건 pages로 지어야됨!!
@@ -51,5 +55,6 @@ antd에서 제로초가 쓴것들 좀 찾아보기
 
 컴포넌트 안에 스타일 고칠때(antd 커스터마이징할때) 인라인으로 객체조지면 리렌더링 일어남 ㅋㅋ
 => 스타일드 컴포넌트로 커스텀하게 따로 빼놔야됨
-
 스타일드 컴포넌트 싫다? => useMemo안에 객체 넣어놓고 인라인으로 쓰기
+
+form onFinish 알아보기
